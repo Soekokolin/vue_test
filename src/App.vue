@@ -1,7 +1,14 @@
 <template>
+
   <div class="container">
+
+    
+    <img src="./assets/logo.png" />
+
     <div class="row mt-5">
+      
       <div class="col">
+        
         <h1 class="text-center">COVID-19 DATA</h1>
       </div>
     </div>
@@ -168,5 +175,13 @@ export default {
 </script>
 
 <style>
+img {
+  border: 5px solid #d8d8d8;
+  width: 40%;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 350px;
 
+  box-shadow: 0px .20px 1px #d8d8d8;
+}
 </style>
